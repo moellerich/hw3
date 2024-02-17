@@ -1,1 +1,6 @@
 <h1><%= @place["name"] %></h1>
+<a href="/places">List of All Places I've Been</a>
+
+<p>
+  <%= button_to "Delete this place", @place, :method => "delete" %>
+</p>
